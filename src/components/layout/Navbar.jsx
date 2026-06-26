@@ -9,7 +9,7 @@ function Navbar() {
           <div className="flex items-center gap-3">
 
             <img
-              src="/images/logo/logo.png"
+              src={`${import.meta.env.BASE_URL}images/logo/logo.png`}
               alt="Edspire Academy"
               className="h-14 w-auto"
             />

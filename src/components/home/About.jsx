@@ -24,7 +24,7 @@ function About() {
 
           <div>
             <img
-              src="/images/classroom/class3.jpg"
+              src={`${import.meta.env.BASE_URL}images/classroom/class3.jpg`}
               alt="Edspire Academy Classroom"
               className="rounded-3xl shadow-2xl w-full"
             />

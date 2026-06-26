@@ -22,7 +22,7 @@ export default function FounderTeam() {
 
             <div className="p-8 flex justify-center">
               <img
-                src="/images/founder/founder.jpg"
+                src={`${import.meta.env.BASE_URL}images/founder/founder.jpg`}
                 alt="Vipin Patel"
                 className="w-full max-w-md rounded-3xl shadow-lg object-cover"
               />

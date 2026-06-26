@@ -16,8 +16,11 @@ function Footer() {
           {/* Academy */}
           <div>
 
+           
+           
             <img
-              src="/images/logo/logo.png"
+            
+              src={`${import.meta.env.BASE_URL}images/logo/logo.png`}
               alt="Edspire Academy"
               className="h-16 mb-4"
             />

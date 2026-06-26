@@ -1,23 +1,23 @@
 function Gallery() {
   const images = [
     {
-      src: "/images/classroom/class1.jpg",
+      src: `${import.meta.env.BASE_URL}images/classroom/class1.jpg`,
       title: "Interactive Learning",
     },
     {
-      src: "/images/classroom/class2.jpg",
+      src: `${import.meta.env.BASE_URL}images/classroom/class2.jpg`,
       title: "Academic Environment",
     },
     {
-      src: "/images/classroom/class3.jpg",
+      src: `${import.meta.env.BASE_URL}images/classroom/class3.jpg`,
       title: "Student Engagement",
     },
     {
-      src: "/images/classroom/class4.jpg",
+      src: `${import.meta.env.BASE_URL}images/classroom/class4.jpg`,
       title: "Classroom Excellence",
     },
     {
-      src: "/images/classroom/class5.jpg",
+      src: `${import.meta.env.BASE_URL}images/classroom/class5.jpg`,
       title: "Future-Ready Learning",
     },
   ];
@@ -42,7 +42,6 @@ function Gallery() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
           {images.map((image, index) => (
             <div
               key={index}
@@ -63,7 +62,6 @@ function Gallery() {
               </div>
             </div>
           ))}
-
         </div>
 
       </div>
